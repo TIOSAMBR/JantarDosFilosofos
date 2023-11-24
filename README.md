@@ -2,6 +2,8 @@
 
 # Descrição do Código - Jantar dos Filósofos em Java com Threads
 
+O código implementa uma solução para o clássico problema do "Jantar dos Filósofos" em Java, utilizando Threads e locks (ReentrantLock). O problema envolve cinco filósofos sentados à mesa, alternando entre pensar e comer. Cada filósofo precisa de dois garfos adjacentes para comer. O código cria uma representação dessa situação, onde cada filósofo é uma thread, e os garfos são protegidos por locks para evitar condições de corrida.
+
 # 1. Classe Filosofo:
 
 Atributos:
